@@ -1,4 +1,4 @@
-var counterWidth;
+var counterWidth;    
 var counterRadius;
 var xoffset;
 var yoffset;
@@ -447,7 +447,7 @@ function drawTitleText()
 {
     drawingContext.fillStyle = "rgba(0,0,0,1)";
     drawingContext.font = "bold 20px sans-serif";
-    drawingContext.fillText( "connect 4", 10, 20 );
+    drawingContext.fillText( "Coder Dojo Brixton Connect 4", 10, 20 );
 }
 
 /**
